@@ -1,0 +1,21 @@
+.wrapper {
+  max-width: 1315px;
+  margin: 0 auto;
+  background-color: #8D2673;
+}
+.main__footer {
+  outline: 1px dotted #000;
+  width: 1000px;
+  height: auto;
+  margin: 0 auto;
+}
+.main__header {
+  outline: 1px dotted #000;
+  width: 1000px;
+  height: auto;
+  margin: 0 auto;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
