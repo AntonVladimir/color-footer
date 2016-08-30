@@ -1,5 +1,7 @@
-.center(@size: @size1000){   //@size1000 in variabless-mixin.less
-	width: @size;
+.center(@sizePading;@size: @size1000){   //@size1000 in variabless-mixin.less
+	width: @size - @sizePading * 2;
 	height: auto;
+	padding-right: @sizePading;
+	padding-left: @sizePading;
 	margin: 0 auto;
 }

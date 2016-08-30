@@ -1,0 +1,21 @@
+.button{
+	display: inline-block;
+	border: none;
+	margin: 0;
+	padding: 10px;
+	font-size: 13px;
+	color: #fff;
+	background-color: #76244C;
+	position: relative;
+
+	&:hover{
+		background-color: lighten(#76244C, 15%);
+	}
+
+	&:after{
+		display: inline-block;
+	 	content: ">>";
+	 	margin-left: 10px;
+	}
+
+}
