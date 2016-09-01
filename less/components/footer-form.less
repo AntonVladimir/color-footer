@@ -15,14 +15,27 @@
 	input{
 		.center(10px;318px);
 		outline: none;
-		border: none;
+		// border: none;
+		border: 1px solid #fff;
 		margin-bottom: 12px;
 		padding-top: 13px;
 		padding-bottom: 13px;
 	}
+	
+	.form__text,.form__email{
+		.outline();
+		position: relative;
+	}
 
 	input[placeholder]{
 		text-transform: capitalize;
+		color: #844660;
+	}
+	input::-webkit-input-placeholder {
+		color: #844660;
+	}
+	input:-moz-placeholder {
+		color: #844660;
 	}
 
 	textarea{
@@ -35,3 +48,4 @@
 		height: 105px;
 	}
 }
+

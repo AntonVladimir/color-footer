@@ -11,12 +11,12 @@
   padding-left: 30px;
   margin: 0 auto;
 }
-.main__footer:before,
-.main__footer:after {
+.footer__block:before,
+.footer__block:after {
   content: "";
   display: table;
 }
-.main__footer:after {
+.footer__block:after {
   clear: both;
 }
 .footer__h2 {
@@ -59,13 +59,25 @@
   padding-left: 10px;
   margin: 0 auto;
   outline: none;
-  border: none;
+  border: 1px solid #fff;
   margin-bottom: 12px;
   padding-top: 13px;
   padding-bottom: 13px;
 }
+.footer__form .form__text,
+.footer__form .form__email {
+  outline: 1px dotted #000;
+  position: relative;
+}
 .footer__form input[placeholder] {
   text-transform: capitalize;
+  color: #844660;
+}
+.footer__form input::-webkit-input-placeholder {
+  color: #844660;
+}
+.footer__form input:-moz-placeholder {
+  color: #844660;
 }
 .footer__form textarea {
   width: 298px;
@@ -112,6 +124,26 @@ body hr {
   font-family: "FontAwesome";
   content: "\f101";
   margin-left: 10px;
+}
+.required {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  padding: 3px 5px;
+  border: 1px solid #c22c2e;
+  border-radius: 3px;
+  color: #D64B4D;
+  background-color: #df7576;
+  position: absolute;
+  top: -3px;
+  right: -10px;
+  z-index: 100000;
+}
+.required_text {
+  display: none;
+}
+.required_email {
+  display: none;
 }
 /*!
  *  Font Awesome 4.6.1 by @davegandy - http://fontawesome.io - @fontawesome

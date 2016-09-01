@@ -16,6 +16,12 @@
 </head>
 <body>
 
+	<!--[if lt IE 9]>
+	<p class="browsehappy">Ваш браузер <strong>устарел</strong>.
+	Пожалуйста<a href="http://browsehappy.com/">обновите</a> его.</p>	
+	<![endif]-->
+
+
 	<div class="wrapper">
 
 		<header class="main__header">
@@ -31,21 +37,28 @@
 
 				<h2 class="footer__h2">drop us a line</h2>
 
-				<form action="post" name="form-footer">
-					<label for="name">name*</label>	<br>			 
-					<input type="text" id="name" placeholder="arnold muscle"> <br>
+				<form action="post" name="form_footer">
 
+					<div class="form__text">
+						<label for="name">name*</label>	<br>			 
+						<input type="text" id="name" placeholder="arnold muscle"> <br>
 
-					<label for="email">email*</label> <br>
-					<input type="email" id="email" placeholder="arnold@muscle.com"> <br>
-			
+						<div class="required required_text" id="required_text_id">поле обязательное для заполнения</div>
+					</div>
 
-					<label for="message">massage*</label> <br>
+					<div class="form__email">
+						<label for="email">email*</label> <br>
+						<input type="email" id="email" class="form__email" placeholder="arnold@muscle.com"> <br>
+
+						<div class="required required_email" id="required_email_id">поле обязательное для заполнения</div>
+					</div>
+
+					<label for="message">massage</label> <br>
 					<textarea id="message"></textarea> <br>
 
 				
 
-					<button class="btn__form button fa">send massage</button>
+					<button class="btn__form button fa" id="form__btn">send massage</button>
 				</form>
 			</article>
 
@@ -110,4 +123,6 @@
 	</div>
 
 </body>
+
+	<script type="text/javascript" src="script/form-required.js"></script>
 </html>
