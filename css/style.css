@@ -4,7 +4,6 @@
   background-color: #8D2673;
 }
 .main__footer {
-  outline: 1px dotted #000;
   width: 940px;
   height: auto;
   padding-right: 30px;
@@ -35,12 +34,32 @@
   float: right;
 }
 .footer__info {
-  outline: 1px dotted #000;
   width: 288px;
   float: left;
 }
+.footer__info .info__adreess h3,
+.footer__info .info__office h3,
+.footer__info .info__contact h3 {
+  margin: 0;
+  margin-bottom: 5px;
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #fff;
+  text-transform: capitalize;
+}
+.footer__info .info__adreess p,
+.footer__info .info__office p,
+.footer__info .info__contact p {
+  margin: 0;
+  margin-bottom: 29px;
+  font-size: 13px;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: #fff;
+}
 .footer__form {
-  outline: 1px dotted #000;
   margin-right: 58px;
   width: 318px;
   float: left;
@@ -61,12 +80,11 @@
   outline: none;
   border: 1px solid #fff;
   margin-bottom: 12px;
-  padding-top: 13px;
-  padding-bottom: 13px;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 .footer__form .form__text,
 .footer__form .form__email {
-  outline: 1px dotted #000;
   position: relative;
 }
 .footer__form input[placeholder] {
@@ -89,7 +107,7 @@
   margin-bottom: 8px;
   padding-top: 15px;
   border: none;
-  height: 105px;
+  height: 85px;
 }
 .main__header {
   outline: 1px dotted #000;
