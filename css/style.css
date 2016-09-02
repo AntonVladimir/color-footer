@@ -33,6 +33,50 @@
   height: auto;
   float: right;
 }
+.footer__links .links__webmaster p {
+  font-size: 13px;
+  line-height: 20px;
+  color: #fff;
+}
+.footer__links .links__webmaster p a {
+  color: #fff;
+}
+.footer__links .links__webmaster p a:hover {
+  color: #c1c1c1;
+}
+.links__list {
+  list-style: none;
+  margin: 0;
+  margin-bottom: 70px;
+  padding: 0;
+}
+.links__list li {
+  margin-bottom: 3px;
+}
+.links__list li:last-child {
+  margin-bottom: 0;
+}
+.links__list li a {
+  display: inline-block;
+  width: 224px;
+  height: auto;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 13px;
+  color: #fff;
+  background-color: #8D2D43;
+}
+.links__list li a:before {
+  content: "\f105";
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 7px;
+  width: 6px;
+  height: 14px;
+}
 .footer__info {
   width: 288px;
   float: left;
