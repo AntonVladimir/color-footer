@@ -1,6 +1,8 @@
 .wrapper {
   max-width: 1315px;
   margin: 0 auto;
+  padding-top: 130px;
+  padding-bottom: 120px;
   background-color: #8D2673;
 }
 .main__footer {
@@ -9,6 +11,11 @@
   padding-right: 30px;
   padding-left: 30px;
   margin: 0 auto;
+  margin-bottom: 24px;
+  padding-top: 30px;
+  padding-bottom: 43px;
+  background-color: rgba(0, 0, 0, 0.502);
+  box-shadow: 0px 3px 0px 0px rgba(39, 9, 13, 0.004);
 }
 .footer__block:before,
 .footer__block:after {
@@ -28,7 +35,6 @@
   color: #fff;
 }
 .footer__links {
-  outline: 1px dotted #000;
   width: 240px;
   height: auto;
   float: right;
@@ -154,12 +160,31 @@
   height: 85px;
 }
 .main__header {
-  outline: 1px dotted #000;
   width: 1000px;
   height: auto;
   padding-right: 0;
   padding-left: 0;
   margin: 0 auto;
+  text-align: center;
+}
+.main__header .header__h1 {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 30px;
+  line-height: 32px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #fff;
+}
+.main__header small {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 75px;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 200;
+  color: #fff;
 }
 body {
   font-family: 'Roboto', 'Arial', sans-serif;
@@ -206,6 +231,19 @@ body hr {
 }
 .required_email {
   display: none;
+}
+.after {
+  width: 1000px;
+  height: auto;
+  padding-right: 0;
+  padding-left: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+.after a {
+  font-size: 13px;
+  line-height: 20px;
+  color: #B1697E;
 }
 /*!
  *  Font Awesome 4.6.1 by @davegandy - http://fontawesome.io - @fontawesome
